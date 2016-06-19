@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"f051c8t6-dma-uart configuration\system_stm32f1xx.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_flash.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_dma.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_gpio_ex.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_uart.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_rcc.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_pwr.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_cortex.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_rcc_ex.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_flash_ex.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_gpio.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal.o"
+"f051c8t6-dma-uart configuration\dma.o"
+"f051c8t6-dma-uart configuration\main.o"
+"f051c8t6-dma-uart configuration\usart.o"
+"f051c8t6-dma-uart configuration\gpio.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_it.o"
+"f051c8t6-dma-uart configuration\stm32f1xx_hal_msp.o"
+"f051c8t6-dma-uart configuration\startup_stm32f103xb.o"
+--library_type=microlib --strict --scatter "F051C8T6-DMA-UART Configuration\F051C8T6-DMA-UART Configuration.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F051C8T6-DMA-UART Configuration.map" -o "F051C8T6-DMA-UART Configuration\F051C8T6-DMA-UART Configuration.axf"
